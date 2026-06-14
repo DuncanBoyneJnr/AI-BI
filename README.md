@@ -4,7 +4,7 @@ AI prompts, how-tos and tooling for working on Power BI with an AI agent in the 
 
 This is the companion repo to my talks — a place to grab the prompts and links I reference on stage. Everything here is what I actually use on real delivery work.
 
-— [Duncan Boyne](https://www.linkedin.com/in/duncan-boyne/)
+— [Duncan Boyne](https://www.linkedin.com/in/duncanboyne/)
 
 ---
 
