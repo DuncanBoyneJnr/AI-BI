@@ -36,6 +36,16 @@ Prompts that help you create rather than critique.
 | 12 | [Report Storyboard](prompts/12-report-storyboard.md) | Plans the report as a story before you build | Audience + metrics + constraints |
 | 13 | [Model Documentation Generator](prompts/13-model-documentation-generator.md) | Generates a living data dictionary | Model objects / live model |
 
+## Figma MCP workflow prompts
+
+Prompts for moving from a rough dashboard idea into Figma and then into a buildable Power BI report.
+
+| # | Prompt | Does | Give it |
+|---|--------|------|---------|
+| 16 | [Dashboard Idea To Figma Wireframe](prompts/16-dashboard-idea-to-figma-wireframe.md) | Uses Figma MCP to turn a rough dashboard idea into wireframed report pages | Idea, audience, metrics, constraints + Figma file |
+| 17 | [Figma Wireframe To Power BI Build Spec](prompts/17-figma-wireframe-to-power-bi-build-spec.md) | Converts an approved Figma wireframe into a Power BI build sheet | Figma frame + model context |
+| 18 | [Figma Wireframe To Report Build Agent](prompts/18-figma-wireframe-to-report-build-agent.md) | Drives the actual report build from the approved Figma design | Figma frame + build spec + report/model access |
+
 ## Explain & communicate prompts
 
 Prompts for understanding and for talking to stakeholders.
@@ -83,7 +93,10 @@ AI-BI/
 │   ├── 12-report-storyboard.md
 │   ├── 13-model-documentation-generator.md
 │   ├── 14-error-troubleshooter.md
-│   └── 15-stakeholder-narrative.md
+│   ├── 15-stakeholder-narrative.md
+│   ├── 16-dashboard-idea-to-figma-wireframe.md
+│   ├── 17-figma-wireframe-to-power-bi-build-spec.md
+│   └── 18-figma-wireframe-to-report-build-agent.md
 └── guides/
     ├── how-to-use-the-prompts.md
     └── tools.md
